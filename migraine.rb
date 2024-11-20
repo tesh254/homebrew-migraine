@@ -1,5 +1,5 @@
 class Migraine < Formula
-  desc "A CLI for managing migrations in backend projects with PostgreSQL"
+  desc "A CLI tool used to organize and automate complex workflows with templated commands. Users can define, store, and run sequences of shell commands efficiently, featuring variable substitution, pre-flight checks, and discrete actions."
   homepage "https://github.com/tesh254/migraine"
   version "${VERSION#v}"
 
