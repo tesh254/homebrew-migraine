@@ -1,15 +1,15 @@
 class Migraine < Formula
   desc "A robust CLI tool used to organize and automate complex workflows with templated commands"
   homepage "https://github.com/tesh254/migraine"
-  version "0.1.6"
+  version "0.1.7"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/tesh254/migraine/releases/download/v0.1.6/migraine-darwin-amd64"
-      sha256 "d8a0c19792d03707ac6183e1f2f461bf5e9a14e4b6b622e834943af8cbb01768"
+      url "https://github.com/tesh254/migraine/releases/download/v0.1.7/migraine-darwin-amd64"
+      sha256 "9068cdf5e85a04d2a6396151509a16a7c71d0f13e10f70b65d0e7917244270c7"
     else
-      url "https://github.com/tesh254/migraine/releases/download/v0.1.6/migraine-darwin-arm64"
-      sha256 "441a92b2729867097643db5375205bbca707385baa6bcd9d64ad12dae02c0207"
+      url "https://github.com/tesh254/migraine/releases/download/v0.1.7/migraine-darwin-arm64"
+      sha256 "ba43f3f0d813f4fbea3093512a9dbe67d2d723873492b383743004959a0d293d"
     end
   end
 
