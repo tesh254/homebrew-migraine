@@ -6,10 +6,10 @@ class Migraine < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/tesh254/migraine/releases/download/v2.1.0/migraine-darwin-amd64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "d2878469eb0574e2343a2bb2d27a331081cdd914e68cb0c8ae54d4482e1571e6"
     else
       url "https://github.com/tesh254/migraine/releases/download/v2.1.0/migraine-darwin-arm64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "7edb7998df0ed73c95bdaedd7e25291f8af5e7766f4bd5ddb7856a07f96ede2c"
     end
   end
 
